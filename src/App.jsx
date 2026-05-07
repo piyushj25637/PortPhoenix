@@ -3,7 +3,7 @@ import Home from './pages/Home'
 import Gallery from './pages/Gallery'
 import Dashboard from './pages/Dashboard'
 import Showcase from './pages/Showcase'
-import SignIn from './pages/SignIn'
+import SignIn from './pages/Signin'
 
 function App() {
   return (
