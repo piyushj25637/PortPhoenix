@@ -47,7 +47,7 @@ function Navbar() {
         </ul>
 
         <div className="navbar-actions">
-          <Link to="/dashboard" className="btn-ghost">
+          <Link to="/signin" className="btn-ghost">
             Sign In
           </Link>
           <Link to="/gallery" className="btn-primary">
