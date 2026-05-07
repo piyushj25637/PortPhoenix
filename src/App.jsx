@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import Gallery from './pages/Gallery'
 import Dashboard from './pages/Dashboard'
 import Showcase from './pages/Showcase'
+import SignIn from './pages/SignIn'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/showcase/:id" element={<Showcase />} />
+        <Route path="/signin" element={<SignIn />} />
       </Routes>
     </Router>
   )
